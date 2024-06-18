@@ -1,336 +1,46 @@
-/*Estilos con selector de etiquetas*/
-
-header {
-    text-align: center;
-    line-height: 100px;
-    letter-spacing: 3px;
-    text-decoration: underline;
-    background-color: white;
-    color: #191970;
-
-
-}
-
-nav {
-    text-align: center;
-    word-spacing: 10px;
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: rgb(62, 62, 159);
-    color: white;
-}
-
-main {
-    font-family: "Acme", sans-serif;
+/*Estilos de todo el body*/
+body {
+    background-image: linear-gradient(to right bottom, #f1f3f4, #bbcfdd, #8babc9, #6087b5, #3a639f, #3b4d88, #39376f, #352156, #34173b, #2a1024, #1c0a13, #000000);
+    font-family: "Paytone One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 2px;
+}
+
+/*Estilos del encabezado*/
+header {
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+/*Estilos Nav*/
+nav {
+    background-color: #8babc9;
+    color:#04082a;
+    line-height: 30px;
+    font-size: 25px;
 }
 
 a {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-
-}
-
-footer {
-    text-align: center;
-    word-spacing: 10px;
-    font-family: "Acme", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 1px;
-
-}
-
-body {
-    background-color: midnightblue;
-    color: white;
-}
-
-h1 {
-
-    background-color: rgb(144, 179, 246);
-    color: midnightblue;
-    text-align: center;
-
+    color:#04082a;
 }
 
 h2 {
-    background-color: whitesmoke;
-    color: midnightblue;
-    text-align: center;
+    background-color: #4E8397;
     font-size: 40px;
-    text-transform: uppercase;
-    line-height: 60px;
+    text-align: center;
+    color: #f1f3f4 border ;
 }
-
-h3 {
-    background-color: midnightblue;
-    color: whitesmoke;
-    text-align: left;
-}
-
-b {
-    color: whitesmoke;
-    text-transform: uppercase;
-}
-
-
-/*Estilos con selector de clase*/
-
-/*Class D se conforma de algunos datos*/
-
-.d {
-    background-color: lavender;
-}
-
-
-/*Class R para referencias*/
-
-.r {
-
-    color: white;
-}
-
-/*Class A para Anexos*/
-
-.a {
-    background-color: mediumblue;
-    color: oldlace;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: underline;
-    text-align: start;
-}
-
-/*Estilos con selector de id*/
-
-#principal {
-    font-family: "Acme", sans-serif;
-    font-weight: 800px;
-    font-style: normal;
-    font-size: 60px;
-
-    text-decoration: overline;
-    word-spacing: 25px;
-
-    background-color: white;
-    color: midnightblue;
-}
-
-
-#referencias {
-    background-color: ghostwhite;
-    color: darkblue;
-}
-
+/*Estilos de foto de perfil*/
 #foto_perfil {
-    text-align: center;
+    border-radius: 55%;
+    border: 3px solid white;
+    filter: drop-shadow(0 0 30px rgba(0, 0, 0, .8));
 }
 
-#informacion_personal {
-    word-spacing: 5px;
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 500px;
-}
-
-#estudios_realizados {
-
-    font-style: italic;
-    font-size: 15px;
-    word-spacing: 10px;
-    line-height: 40px;
-}
-
-#experiencia_laboral {
-    font-style: italic;
-}
-
-
-.experiencia_laboral_tabla {
-    background-color: rgb(36, 25, 88);
-    color: rgb(255, 255, 255);
-    text-align: left;
-    line-height: 20px;
-    word-spacing: 10px;
-}
-
-.encabezado_tabla {
-    background-color: rgb(189, 185, 213);
-    color: black;
-    font-size: 17px;
-    text-decoration: underline;
-    text-align: center;
-}
-
-.contacto_empresa {
-    text-align: center;
-    
-}
-
-
-#titulo_registrate {
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 60px;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    background-color: snow;
-    color: black;
-}
-
-.formulario_reclutador {
-    background-color: cadetblue;
-    color: navy;
-    font-size: 30px;
-    line-height: 50px;
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    
-
-
-
-}
-
-.boton {
-    background-color: midnightblue;
-    color: aliceblue;
-    font-size: 20px;
-}
-
-#cursos_realizados {
-    word-spacing: 10px;
-    line-height: 50px;
-    letter-spacing: 5px;
-    font-style: oblique;
-}
-
-#habilidades_destrezas {
-    line-height: 40px;
-    word-spacing: 3px;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-
-#imagenes_referenciales {
-
-    text-align: center;
-    line-height: 60px;
-    background-color: cornflowerblue;
-}
-
-/*listas*/
-
-#lista_datos_personales {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
+#miNombre {
+    font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
-    list-style-type: disclosure-closed;
-    background-color: black;
-}
-
-#lista_estudios {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    list-style-type: upper-latin;
-    background-color: black;
-
-}
-
-.institucion {
-    list-style-type: disclosure-open;
-}
-
-.certificado {
-    list-style-type: disclosure-closed;
-}
-
-#lista_experiencia {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    word-spacing: 1px;
-    list-style-type: lower-latin;
-    background-color: black;
-
-}
-
-.cargo {
-    list-style-type: disc;
-}
-
-#lista_cursos {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    list-style-type: disclosure-closed;
-    background-color: black;
-}
-
-
-#lista_habilidades {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    list-style-type: decimal;
-    line-height: 30px;
-    background-color: black;
-}
-
-#lista_referencias {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    list-style-type: square;
-    background-color: black;
-}
-
-/*anexos*/
-
-#anexos {
-    text-align: center;
-    background-color: mediumblue;
-    color: oldlace;
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-/*video*/
-
-#contacto {
-    font-size: 50px;
-    text-decoration: underline;
-    letter-spacing: 15px;
-    line-height: 80px;
-    background-color: rgb(2, 2, 28);
-    color: whitesmoke;
-}
-
-#contactame {
-    text-align: center;
-}
-
-/*enlace volver al incio*/
-.inicio {
-    text-align: center;
-    font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    font-weight: 300px;
 }
