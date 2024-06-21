@@ -1,46 +1,112 @@
+html {
+    scroll-behavior: smooth;
+    /*propiedad para desplazamiento lento en html*/
+}
+
 /*Estilos de todo el body*/
 body {
-    background-image: linear-gradient(to right bottom, #f1f3f4, #bbcfdd, #8babc9, #6087b5, #3a639f, #3b4d88, #39376f, #352156, #34173b, #2a1024, #1c0a13, #000000);
+    background-image: linear-gradient(to right top, #8babc9, #9abed7, #abd0e4, #bee3f1, #d2f5ff);
+    background-repeat: no-repeat;
+    min-height: 100vh;
     font-family: "Paytone One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: large;
 }
+
 
 /*Estilos del encabezado*/
 header {
+    background-image: linear-gradient(to right bottom, #f1f3f4, #bbcfdd, #8babc9, #6087b5, #3a639f, #3b4d88, #39376f, #352156, #34173b, #2a1024, #1c0a13, #000000);
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 80px;
     letter-spacing: 3px;
-    text-decoration: underline;
 }
+
 /*Estilos Nav*/
 nav {
     background-color: #8babc9;
-    color:#04082a;
+    color: #04082a;
     line-height: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
+/*estilos del texto de los vinculos*/
 a {
-    color:#04082a;
+    color: #04082a;
+    text-decoration: none;
+    /*esta propiedad le quitaria la linea que tienen por debajos los vinculos por defecto*/
+    font-weight: bold;
+
 }
 
+/*Estilos de los encabezados de tipo h2*/
 h2 {
-    background-color: #4E8397;
+    background-image: linear-gradient(to right bottom, #f1f3f4, #bbcfdd, #8babc9, #6087b5, #3a639f, #3b4d88, #39376f, #352156, #34173b, #2a1024, #1c0a13, #000000);
     font-size: 40px;
     text-align: center;
-    color: #f1f3f4 border ;
+    text-shadow: 0 0 5px #ffffff;
+    /* color del borde de la letra*/
+    outline: 2px solid #000000;
+    /* grosor y color del borde del fondo que tiene la letra*/
 }
+
 /*Estilos de foto de perfil*/
 #foto_perfil {
     border-radius: 55%;
-    border: 3px solid white;
+    /*permite que la imagen se vea redonda*/
+    border: 5px solid white;
+    /*borde y color de la imagen*/
     filter: drop-shadow(0 0 30px rgba(0, 0, 0, .8));
+    /*Sombra a la imagen*/
 }
 
+/*Estilos del titulo principal*/
 #miNombre {
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #ffffff;
+    text-shadow: 0 0 10px black;
+    /* color del borde de la letra */
 }
+
+/*estilos de la lista con los datos personales*/
+#lista_datos_personales{
+    list-style-type: disclosure-closed;
+    outline-style: double;
+}
+/*estilos de la lista con los datos de estudio*/
+#lista_estudios{
+    outline-style: double;
+}
+/*estilos de la lista con los datos de cursos*/
+#lista_cursos{
+    outline-style: double;
+}
+/*estilos de la lista con los datos habilidades y destrezas*/
+#lista_habilidades{
+    outline-style: double;
+}
+/*estilos de la lista con las referencias personales*/
+#lista_referencias{
+    outline-style: double;
+}
+/*estilos de los hipervinculos que llevan de regreso al inicio*/
+.inicio{
+    text-align: center;
+}
+.experiencia_laboral_tabla{
+    border-style:groove;
+    outline: 2px solid #000000;
+    background-color: #ffffffdc;
+
+}
+.encabezado_tabla{
+    background-color: #022D45;
+    filter: drop-shadow(0 0 30px rgba(0, 0, 0, .8));
+    text-shadow: 0 0 5px #ffffff;
+    outline: 2px solid #000000;
+}
+
