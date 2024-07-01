@@ -110,3 +110,42 @@ h2 {
     outline: 2px solid #000000;
 }
 
+#imagenes_referenciales{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+
+/*Estilos del formulario*/
+
+#registro_reclutador{
+    background-image: radial-gradient(circle, #bffcf9, #c5f9f3, #caf5ee, #cff2ea, #d3eee6, #c8e4db, #bdd9cf, #b3cfc4, #97bcae, #7caa99, #619784, #448570);
+}
+
+#titulo_registrate {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0 0 5px #ffffff;
+    /* color del borde de la letra*/
+    outline: 2px solid #000000;
+    /* grosor y color del borde del fondo que tiene la letra*/
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.formulario_reclutador {
+    background-image: radial-gradient(circle, #448570, #619784, #7caa99, #97bcae, #b3cfc4, #bdd9cf, #c8e4db, #d3eee6, #cff2ea, #caf5ee, #c5f9f3, #bffcf9);
+    color:#000000;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.boton {
+    background-color: #448570;
+    color: aliceblue;
+    font-size: 20px;
+}
